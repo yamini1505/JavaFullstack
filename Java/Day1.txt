@@ -1,0 +1,23 @@
+**Date:** 16/11/2026 (Monday)
+
+**Topics Covered:**
+
+- Functional Interface
+- Anonymous Function
+- Consumer Interface
+- Supplier Interface
+- Predicate Interface
+- Lambda Expression
+
+**Given Task:** Employee Attendance Management
+
+**Scenario:** A company wants to identify employees who meet the attendance requirement and generate an attendance report.
+
+**Requirements:**
+
+- Create a list of attendance percentages: 95, 45, 80, 30, 100.
+- Use `Predicate` to check whether attendance is 75% or above.
+- Use `Consumer` to print eligible attendance percentages.
+- Use `forEach()` to process the list.
+
+**Concepts:** List, Generics, Predicate, Consumer, Lambda Expression, and `forEach()`.

@@ -1,0 +1,26 @@
+**Date:** 17/11/2026
+
+**Topics Covered:**
+
+- Lambda Expressions
+- Types of Lambda Expressions:
+  1. No Argument
+  2. One Argument
+  3. Two Arguments
+  4. Multiple Statements
+- Streams
+- Stream Workflow: Source → Intermediate Operations → Terminal Operations
+
+**Given Task:** Shopping Billing System Using Lambda Expressions
+
+**Scenario:** An online shopping application wants to simplify billing calculations using Java Lambda Expressions and Functional Interfaces.
+
+**Requirements:**
+
+- Display a welcome message using a lambda with no parameters.
+- Calculate 18% GST using a single parameter.
+- Find the total price using product price and quantity.
+- Calculate a 10% discount using a single expression.
+- Calculate the final bill after discount using multiple statements.
+
+**Concepts Used:** Functional Interfaces, Lambda Expressions, Parameters, Return Values, Streams, and Billing Calculations.

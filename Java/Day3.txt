@@ -1,0 +1,24 @@
+**Date:** 18/11/2026 (Wednesday)
+
+**Topics Covered:**
+
+- Stream API in Java
+- Intermediate Operations: `filter()`, `map()`, `sorted()`, etc.
+- Terminal Operations: `forEach()`, `collect()`, `count()`, etc.
+- Stream processing and Collectors
+- Implementation of Stream operations in Java
+
+**Given Task:** E-Commerce Order Management System
+
+**Scenario:** An online shopping company wants to analyze customer orders and generate sales reports using Java Stream API.
+
+**Requirements:**
+
+- Filter orders based on order amount and order status.
+- Sort orders based on their amount.
+- Find the maximum and minimum order amounts.
+- Calculate total sales and count the total number of orders.
+- Group orders by product category and delivery city.
+- Calculate the average order amount.
+
+**Concepts Used:** Collections, Stream API, Intermediate Operations, Terminal Operations, `filter()`, `sorted()`, `map()`, `forEach()`, `collect()`, `count()`, `max()`, `min()`, `groupingBy()`, and `average()`.
