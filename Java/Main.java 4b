@@ -1,0 +1,30 @@
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+
+public class Main {
+    public static void main(String[] args) {
+
+        LocalDate date = LocalDate.now();
+        LocalTime time = LocalTime.now();
+        LocalDateTime dateTime = LocalDateTime.now();
+
+        System.out.println("Date: " + date);
+        System.out.println("Time: " + time);
+        System.out.println("Date and Time: " + dateTime);
+
+        System.out.println("After 5 Days: " + date.plusDays(5));
+        System.out.println("After 2 Months: " + date.plusMonths(2));
+
+        LocalDate dob = LocalDate.of(2005, 5, 20);
+        Period p = Period.between(dob, date);
+        System.out.println("Age: " + p.getYears());
+
+        LocalTime start = LocalTime.of(10, 0);
+        LocalTime end = LocalTime.of(12, 30);
+        Duration d = Duration.between(start, end);
+        System.out.println("Duration: " + d.toHours() + " Hours");
+
+        DateTimeFormatter f = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        System.out.println("Formatted Date: " + date.format(f));
+    }
+}

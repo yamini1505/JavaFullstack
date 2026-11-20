@@ -1,0 +1,8 @@
+Date: 18/11/2026.
+
+#Topics Covered: --> Optional in java and types -->optional.of()
+                                            -->optional.ofNullable()
+                                            -->optional.empty()
+                 --> Date and time .
+
+#Give task: Understand the optional and date&time using code implementation.
